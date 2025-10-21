@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html lang="eng">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLA PF Exam</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div  class="calculator">
+    <h1>CALCULATOR</h1>
+    <textarea id="display" value="0" class="display" rows="4" cols="50"></textarea>
+    <br>
+    <button onclick="display(1);" value="1" id="num1" class="button">1</button>
+    <button onclick="display(2);" value="2" id="num2" class="button">2</button>
+    <button onclick="display(3);" value="3" id="num3" class="button">3</button>
+    <button onclick="calculate(10);" value="+" id="cal1" class="button">+</button>
+    <br>
+    <button onclick="display(4);" value="4" id="num4" class="button">4</button>
+    <button onclick="display(5);" value="5" id="num5" class="button">5</button>
+    <button onclick="display(6);" value="6" id="num6" class="button">6</button>
+    <button  onclick="calculate(11);" value="-" id="cal2" class="button">-</button>
+    <br>
+    <button onclick="display(7);" value="7" id="num7" class="button">7</button>
+    <button onclick="display(8);" value="8" id="num8" class="button">8</button>
+    <button onclick="display(9);" value="9" id="num9" class="button">9</button>
+    <button  onclick="calculate(12);" value="*" id="cal3" class="button">*</button>
+    <br>
+    <button onclick="calculate(14);" id="equals" class="button">=</button>
+    <button onclick="display(0);" value="0" id="num0" class="button">0</button>
+    <button onclick="clearDisplay();" id="clear" class="button">C</button>
+    <button onclick="calculate(13);" value="/" id="cal4" class="button">/</button>
+    <br>
+    <br>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
